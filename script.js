@@ -16,3 +16,6 @@ document.getElementById("message").innerHTML=
 "Study Plan Saved: " + subject + " - " + hours + " hour(s)";
 
 }
+
+// Add this line
+savePlan();
