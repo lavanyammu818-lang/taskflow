@@ -1,14 +1,19 @@
+/* eslint no-unused-vars: "off" */
+
 function savePlan() {
-  let subject = document.getElementById("subject").value;
 
-  let hours = document.getElementById("hours").value;
+    let subject = document.getElementById("subject").value;
 
-  if (subject == "" || hours == "") {
-    alert("Please enter all details.");
+    let hours = document.getElementById("hours").value;
 
-    return;
-  }
+    if (subject === "" || hours === "") {
 
-  document.getElementById("message").innerHTML =
-    "Study Plan Saved: " + subject + " - " + hours + " hour(s)";
+        alert("Please enter all details.");
+
+        return;
+
+    }
+
+    document.getElementById("message").innerHTML =
+        "Study Plan Saved: " + subject + " - " + hours + " hour(s)";
 }
