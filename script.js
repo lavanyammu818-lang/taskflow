@@ -1,3 +1,5 @@
+/* eslint no-unused-vars: "off" */
+
 function savePlan(){
 
 let subject=document.getElementById("subject").value;
@@ -17,5 +19,4 @@ document.getElementById("message").innerHTML=
 
 }
 
-// Add this line
-savePlan();
+
