@@ -1,59 +1,51 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>TaskFlow - Study Planner</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Study Planner</h1>
 
-<div class="container">
+      <p>Plan your study schedule</p>
 
-<h1>Study Planner</h1>
+      <input type="text" id="subject" placeholder="Subject Name" />
 
-<p>Plan your study schedule</p>
+      <input type="number" id="hours" placeholder="Study Hours" />
 
-<input type="text" id="subject" placeholder="Subject Name">
+      <button onclick="savePlan()">Save Study Plan</button>
 
-<input type="number" id="hours" placeholder="Study Hours">
+      <p id="message"></p>
+    </div>
 
-<button onclick="savePlan()">Save Study Plan</button>
-
-<p id="message"></p>
-
-</div>
-
-<script src="script.js"></script>
-
-</body>
+    <script src="script.js"></script>
+  </body>
 </html>
 
 <p id="message"></p>
-<hr>
+<hr />
 
 <h2>Today's Subjects</h2>
 
 <ul>
+  <li>Mathematics</li>
 
-<li>Mathematics</li>
+  <li>Physics</li>
 
-<li>Physics</li>
-
-<li>English</li>
-
+  <li>English</li>
 </ul>
 
-<hr>
+<hr />
 
 <h2>Weekly Goals</h2>
 
 <ul>
+  <li>Complete 3 Chapters</li>
 
-<li>Complete 3 Chapters</li>
+  <li>Solve 20 Practice Problems</li>
 
-<li>Solve 20 Practice Problems</li>
-
-<li>Revise Class Notes</li>
-
+  <li>Revise Class Notes</li>
 </ul>

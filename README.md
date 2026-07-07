@@ -1,14 +1,8 @@
 \# TaskFlow
 
-
-
 TaskFlow is a simple Study Planner built using HTML, CSS, and JavaScript.
 
-
-
 \## Features
-
-
 
 \- Add a study subject
 
@@ -20,11 +14,7 @@ TaskFlow is a simple Study Planner built using HTML, CSS, and JavaScript.
 
 \- Track weekly study goals
 
-
-
 \## Technologies Used
-
-
 
 \- HTML
 
@@ -35,4 +25,3 @@ TaskFlow is a simple Study Planner built using HTML, CSS, and JavaScript.
 \- Git
 
 \- GitHub
-
